@@ -3,8 +3,8 @@ import { View, Text, TextInput, Button } from "react-native";
 import QRCode from "react-native-qrcode-svg";
 
 export default function QRCodeGenerator() {
-  const [path, setPath] = useState("/about"); // default value
-  const baseUrl = "https://my-todo-app.vercel.app"; // replace with your deployed URL
+  const [path, setPath] = useState("/AboutScreen"); // default value
+  const baseUrl = "https://prac-todo-eight.vercel.app"; // replace with your deployed URL
 
   const fullUrl = `${baseUrl}${path}`;
 
