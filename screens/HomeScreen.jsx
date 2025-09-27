@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { View, Text, TextInput, Button, FlatList, StyleSheet } from "react-native";
-// import QRAbout from "../QRAbout";
+import QRAbout from "../QRAbout";
 export default function HomeScreen({ navigation }) {
   const [task, setTask] = useState("");
   const [tasks, setTasks] = useState([]);
@@ -35,8 +35,11 @@ export default function HomeScreen({ navigation }) {
           </View>
         )}
       />
-      {/* <QRAbout /> */}
+      <View>
+        <QRAbout />
+      </View>
     </View>
+    
   );
 }
 
