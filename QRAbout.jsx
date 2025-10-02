@@ -4,7 +4,7 @@ import QRCode from "react-native-qrcode-svg";
 
 export default function QRCodeGenerator() {
   const [path, setPath] = useState("/AboutScreen"); // default value
-  const baseUrl = "https://prac-todo-eight.vercel.app"; // replace with your deployed URL
+  const baseUrl = "https://visitrak-web.vercel.app/"; // replace with your deployed URL
 
   const fullUrl = `${baseUrl}${path}`;
 

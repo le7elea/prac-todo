@@ -8,7 +8,7 @@ export default function QRGenerator() {
   const [qrValue, setQrValue] = useState("");
 
   const generateQR = () => {
-    let url = "https://prac-todo-eight.vercel.app/"; // change to your deployed web URL
+    let url = "https://visitrak-web.vercel.app//"; // change to your deployed web URL
 
     if (page) {
       url += `?redirect=${page}`;
